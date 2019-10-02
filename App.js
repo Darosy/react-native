@@ -9,21 +9,21 @@
 import React from 'react';
 import { StyleSheet, SafeAreaView, FlatList, View } from 'react-native';
 import ListItem, {Separator} from './src/Gesture/Gesture';
-import Drawer from './src/Router/router';
+import NavIconButtonBar from './src/Router/router';
 
-const styles = StyleSheet.create({
-    container: {
-        flex: 1,
-        backgroundColor: '#F5FCFF',
-        alignItems: 'center',
-        justifyContent: 'center'
-    }
-});
+// const styles = StyleSheet.create({
+//     container: {
+//         flex: 1,
+//         backgroundColor: '#F5FCFF',
+//         alignItems: 'center',
+//         justifyContent: 'center'
+//     }
+// });
 
 export default class App extends React.Component {
     render() {
         return (
-            <Drawer/>
+            <NavIconButtonBar/>
         );
     }
 }
